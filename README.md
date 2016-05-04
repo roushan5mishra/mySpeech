@@ -1,1 +1,1 @@
-# Learning to use Speechrecognition module of Python
+# Learning to use SpeechRecognition module of Python
