@@ -44,13 +44,13 @@ def main():
             r.adjust_for_ambient_noise(source)
             print("Minimum energy threshold set to {}".format(r.energy_threshold))
     
-            while True:
+        while True:
                 
-                speak("Whats up! Say something..")
-                audio = record()
-                value = interpret(audio)
-                speak(value)
-                write(value)
+            speak("Whats up! Say something..")
+            audio = record()
+            value = interpret(audio)
+            speak(value)
+            write(value)
 
     except KeyboardInterrupt:
         speak("Good Bye!")
